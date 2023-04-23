@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    </head>
+    <body>
+        <link href="Diseño.css" rel="stylesheet" type="text/css"/>
+        <h1>⚕️MascotaYa⚕️ </h1>
+        <script>
+
+        </script>
+        <div class="a">
+            <form action="Controlador" method="POST">
+                <br><br>
+                <p>
+                    <input type="hidden" name="orden" value="listar">
+                    Nombre de la mascota= <input type="text" name="nombre"><br>
+                    (Felino/Canino) <select id="tipo" name="tipo">
+                        <option value="gato">Felino</option>
+                        <option value="perro">Canino</option>
+                    </select>
+
+                    <br>
+
+                    Raza: <input type="text" name="raza"><br>
+
+                    Color: <input type="text" name="color"><br>
+
+                    Edad <input value="" type="number" min="0" name="edad"><br>
+
+                    Si es Felino, Esta enfermo? (Si/No) <br>
+                    <select id="enfermo" name="enfermo">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                    <br>
+
+
+                    Si es Canino, ¿Cual es el nivel de entrenamiento? <br>
+                    <select name="entreno">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br><br>
+                    <input class='boton' type="submit" value="Enviar"><br>
+                    <br><!-- envia el dato -->
+
+                </p>
+            </form>
+        </div>
+        <form action="Controlador" method="get" class="mostrar" target="request">
+
+            <button class="boton" type="submit" id="izquierda" >Mostrar mascotas registradas</button>
+        </form>
+
+
+         </body>
+</html>

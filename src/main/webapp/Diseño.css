@@ -1,0 +1,62 @@
+.a{
+    margin: 0 auto;
+    top: 18%;
+    left: 35%;
+    font-size: 20px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+
+    text-align: center;
+    top: 2%;
+    font-family: Comic Sans MS;
+    font-weight:bold;
+    font-size: 50px;
+    color:aliceblue;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
+
+.boton{
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+
+body{
+    background: paleturquoise;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    background: #0099CC;
+}
+td {
+    width: 80px;
+}
+td, th {
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+select{
+    width: 250px;
+}
+.eliminar{
+    position: fixed;
+}
+
+.boton{
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
